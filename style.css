@@ -1,0 +1,162 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+header{
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    height: 75px;
+    z-index: 10;
+    color: white;
+}
+.logo{
+    width: 40%;
+    margin-left: 200px;
+}
+.logo h2{
+    font-weight: 900;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.navb{
+    padding-top: 28px;
+    margin-right: 50px;
+}
+.hero{
+    background: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    color: #fff;
+}
+.hero h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin: none;
+}
+.herotext{
+    margin-top: 100px;
+    width: 60%;
+    text-align: center;
+}
+.herotext p{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0px 100px;
+    font-weight: 500;
+    margin-top: -25px;
+}
+.herotext button{
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 500px;
+    font-size: larger;
+    background-color: white;
+    cursor: pointer;
+}
+.herotext button:hover{
+    
+    background-color: rgba(255, 255, 255, 0.584);
+}
+.ourser{
+    margin-top: -30px;
+    text-align: center;
+    width: 100%;
+    background-color: #e3dfdfc7;
+    
+}
+.boxofser{
+    display: flex;
+    margin: 25px 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.detail{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin: 20px 30px;
+
+}
+.detail img{
+    margin-top: 25px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.detail p{
+    margin: 10px 15px;
+}
+.ourser h2{
+    padding-top: 20px;
+    font-size: 36px;
+}
+.col form{
+    width: 50%;
+}
+.contentabout{
+    text-align: left;
+    margin: 25px 220px;
+    font-size: larger;
+}
+.row{
+    display: flex;
+    margin:25px 150px;
+}
+.contact-details p{
+    text-align: left;
+}
+.contact .row .col {
+    padding: 0 10px;
+    width: calc(100% / 2 - 50px);
+}
+.contact form input {
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+}
+.col form{
+    width: 90%;
+}
+.contact form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+}
+.contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+}
